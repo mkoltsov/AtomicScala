@@ -9,3 +9,5 @@ method2
 def method3(chef:Int) ={println("method"+chef)}
 
 method3(1)
+
+def method():Int = {42}

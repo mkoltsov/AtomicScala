@@ -10,6 +10,8 @@ for (i<-v.tail){
 
 for (i<-v.reverse){
   println(i)
+
+
 }
 
 

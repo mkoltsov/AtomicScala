@@ -10,4 +10,12 @@ def method3(chef:Int) ={println("method"+chef)}
 
 method3(1)
 
-def method():Int = {42}
+def method4() = {42}
+
+println(method4())
+
+def method4(arg:Int) = {arg}
+
+println(method4(43))
+
+

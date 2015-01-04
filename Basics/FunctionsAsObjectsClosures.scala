@@ -55,5 +55,11 @@ println(sum)
 println(vec4.reduce((sum, n) => sum + n))
 
 println((1 to 100).reduce((sum, n) => sum + n))
+val vec5 = Vector("D", "u", "c", "k")
+println(vec5.reduce((sum1, n) => sum1 + n))
 
-  println(Vector('D', 'u', 'c', 'k').reduce((sum1:String, n:Char) => sum1 + n))
+def sumIt(arg: Int*) = {
+  arg.reduce((sum, n) => sum + n)
+}
+
+println(sumIt(1, 2, 3, 4, 5, 6))

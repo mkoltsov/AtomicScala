@@ -35,9 +35,25 @@ var later = () => println("now")
 val later1 = () => println("now")
 val later2 = (n: String) => {
   println(n)
-  println ("END")
+  println("END")
 }
 
 later()
 later1()
 later2("chef")
+
+val vec4 = Vector(1, 2, 3, 4, 5, 6)
+
+println(vec4.map(n => n + 1))
+
+var sum = 0
+
+vec4.foreach(n => sum += n)
+
+println(sum)
+
+println(vec4.reduce((sum, n) => sum + n))
+
+println((1 to 100).reduce((sum, n) => sum + n))
+
+  println(Vector('D', 'u', 'c', 'k').reduce((sum1:String, n:Char) => sum1 + n))

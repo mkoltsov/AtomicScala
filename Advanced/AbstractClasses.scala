@@ -16,3 +16,5 @@ println((new Chef).pronounce)
 abstract class X(value:Boolean)
 
 class Y(value:Boolean) extends X(value)
+
+case class Z(value:Boolean) extends X(value)

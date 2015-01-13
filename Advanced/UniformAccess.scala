@@ -21,4 +21,4 @@ class Derived extends Base{
 val d = new Derived
 println(d.d3)
 d.d3=42
-println(d.d3) 
+println(d.d3)

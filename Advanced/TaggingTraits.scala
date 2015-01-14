@@ -10,7 +10,7 @@ object Color {
   val values = Vector(Red, Green, Blue)
 }
 
-def display(c:Color) = c match {
+def display(c: Color) = c match {
   case Red => s"It's $c"
   case Green => s"It's $c"
   case Blue => s"It's $c"

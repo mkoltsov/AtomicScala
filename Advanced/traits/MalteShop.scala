@@ -1,4 +1,4 @@
-//!Contains a bug!
+//!Contains an unfixed bug!
 import sodafountain._
 import Quantity._
 import Holder._

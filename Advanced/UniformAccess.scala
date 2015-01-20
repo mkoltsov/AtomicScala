@@ -18,6 +18,7 @@ class Derived extends Base{
   def d3_=(newVal:Int) = n = newVal
 }
 
+
 val d = new Derived
 println(d.d3)
 d.d3=42
